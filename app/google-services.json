@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261004922446",
+    "project_id": "web-news-6a560",
+    "storage_bucket": "web-news-6a560.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261004922446:android:5bee112b03ca962ddabd1f",
+        "android_client_info": {
+          "package_name": "com.example.webnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261004922446-nb3foqvc7p52n3q13qh9hfpfkgj92fjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWDykYjDITQrE8Q4F0mUKJ2GSWInQVMSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261004922446-nb3foqvc7p52n3q13qh9hfpfkgj92fjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

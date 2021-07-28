@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SingUpActivity"
+    android:background="#E41B1B">
+
+    <LinearLayout
+        android:layout_width="141dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F1EEEE"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/news_report" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="385dp"
+        android:layout_height="382dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <EditText
+            android:id="@+id/nameSingUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:ems="10"
+            android:hint=" Name"
+
+            android:inputType="textPersonName"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/emailSingUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:ems="10"
+            android:hint=" Email"
+            android:inputType="textEmailAddress"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/passwordSingUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:ems="10"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/btnSingUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="100dp"
+            android:backgroundTint="#D31F1F"
+            android:text="Sing Up" />
+
+        <TextView
+            android:id="@+id/textViewSingUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:text="   Alrady have a account? SingUp"
+            android:textColor="#D31F1F"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
